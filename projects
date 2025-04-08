@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Solomon Shasanmi</h1>
+            <p>Python Developer | Fashion Designer | Upenn Intern</p>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>A first project description (To be filled)</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            
+            <div class="project">
+                <h3>Project etc.</h3>
+                <p>Other Projects (To be filled)</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Solomon Shasanmi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

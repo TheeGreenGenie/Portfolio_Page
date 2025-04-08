@@ -29,9 +29,9 @@ def projects():
 @app.route('/contact')
 def contact():
     contact_info = {
-        'personal email': 'solomonshasanmi@gmail.com',
-        'work email': 'Solomon.Shasanmi@Pennmedicine.upenn.edu',
-        'Work Website': 'https://www.med.upenn.edu/afcri/afcri-cbio-high-school-summer-internship.html',
+        'pEmail': 'solomonshasanmi@gmail.com',
+        'wEmail': 'Solomon.Shasanmi@Pennmedicine.upenn.edu',
+        'wWebsite': 'https://www.med.upenn.edu/afcri/afcri-cbio-high-school-summer-internship.html',
         'linkedin': 'https://www.linkedin.com/in/solomon-shasanmi-a38b32245',
         'github': 'https://github.com/TheeGreenGenie'
     }

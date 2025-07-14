@@ -14,14 +14,49 @@ def about():
 def projects():
     projects_list = [
         {
-            'title': 'Project 1',
-            'description': 'A first project description (To be filled)',
-            'link': '#'
+            'title': 'Vocalytics',
+            'description': 'Application that takes in video input from user and gives tips on how to improve how they talk. Made for MorganHacks 2025 and won 2nd place overall. Shows proficiency in Opencv, Python, Video-analysis, & Live updating',
+            'link': 'https://devpost.com/software/vocalytics-rqogdn'
         },
         {
-            'title': 'Project etc.',
-            'description': 'Other Projects (To be filled)',
-            'link': '#'
+            'title': 'CoviDash',
+            'description': 'Covid Dashboard utilizing APIs to serve live data to a website. Project Demonstrates proficiency in Flask, Javascript, Python, & Live server deployment',
+            'link': 'https://covidash.onrender.com'
+        },
+        {
+            'title': 'Weather App',
+            'description': 'Simple weather app. Displays the current weather of whatever city you enter. Project demonstrates proficiency in APIs, Flask, and Python, & Live server deployment',
+            'link': 'https://my-weather-fxec.onrender.com/'
+        },
+        {
+            'title': 'Blob-Bros',
+            'description': 'Pygame platformer based on Mario-Bros. Project Demonstrates proficiency in OOP, Python, & 2d Physics',
+            'link': 'https://github.com/TheeGreenGenie/Blob-Bros'
+        },
+        {
+            'title': 'Expense Tracker',
+            'description': 'Simple Expense Tracker which runs in the command line. This project shows proficiency in Python, CLI navigation, & Cross-platform integration',
+            'link': 'https://github.com/TheeGreenGenie/ExpenseTracker'
+        },
+        {
+            'title': 'Image Filter',
+            'description': 'Image filtering application, make simple edits to a photo. This project shows proficiency in Python, especially using Numpy, Pillow, & GUIs (tkinter)',
+            'link': 'https://github.com/TheeGreenGenie/Image_Filter'
+        },
+        {
+            'title': 'To Do',
+            'description': 'To do list function working in the command line. This project shows proficiency in CLI interaction, Python, & Json logging',
+            'link': 'https://github.com/TheeGreenGenie/Image_Filter'
+        },
+        {
+            'title': 'FinU',
+            'description': 'Finance application made for HopHacks 2024. This project shows proficiency in Django, Python, and Finance APIs',
+            'link': 'https://github.com/TheeGreenGenie/HopHacksProject'
+        },
+        {
+            'title': 'Vireo',
+            'description': 'Natural disaster web application made for MorganHacks 2024. This project shows proficiency in Teamwork, Streamlit, & User Interaction',
+            'link': 'https://github.com/RobelK1738/Vireo'
         }
     ]
     return render_template('projects.html', title='Projects', projects=projects_list)
